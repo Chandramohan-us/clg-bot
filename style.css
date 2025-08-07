@@ -1,0 +1,62 @@
+/* frontend/style.css */
+body {
+  background: black;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.container {
+  width: 600px;
+  padding: 20px;
+  background: #111;
+  border-radius: 12px;
+  box-shadow: 0 0 25px cyan;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: cyan;
+  text-shadow: 0 0 5px cyan, 0 0 15px cyan;
+}
+
+textarea, input[type="file"] {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  background: #222;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: cyan;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 0 10px cyan;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#answer {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px cyan;
+}
