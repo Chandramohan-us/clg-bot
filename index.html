@@ -1,0 +1,22 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CollegeHelpBot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💡 College HelpBot</h1>
+    <input type="file" id="pdfInput" />
+    <button onclick="uploadPDF()">📤 Upload PDF</button>
+
+    <textarea id="question" placeholder="Ask your question..."></textarea>
+    <button onclick="askQuestion()">❓ Ask</button>
+
+    <div id="answer" class="neon-text"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
