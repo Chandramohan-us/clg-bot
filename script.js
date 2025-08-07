@@ -1,6 +1,6 @@
 // frontend/script.js
 
-const BACKEND = "https://huggingface.co/spaces/chanaivibe/college1helpbot-backend?logs=container"; // Replace when deployed
+const BACKEND = "https://huggingface.co/spaces/chanaivibe/college1helpbot-backend"; // Replace when deployed
 
 async function uploadPDF() {
   const fileInput = document.getElementById("pdfInput");
